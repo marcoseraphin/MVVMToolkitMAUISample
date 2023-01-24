@@ -19,8 +19,7 @@
                 Margin="0,20,0,20">
                 <Label Text="Name: " />
                 <Label Text="{Binding FullName}" />
-            </StackLayout>
-            
+            </StackLayout> 
                    
             <Button Text="Save"
                     BackgroundColor="#2196F3"

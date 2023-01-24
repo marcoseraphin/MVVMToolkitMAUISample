@@ -9,13 +9,13 @@ namespace MVVMToolkitMAUISample
         [ObservableProperty]
         [NotifyPropertyChangedFor(nameof(FullName))]
         [NotifyCanExecuteChangedFor(nameof(SaveCommand))]
-        private string? firstName;
+        private string firstName;
 
         [ObservableProperty]
         [NotifyPropertyChangedFor(nameof(FullName))]
-        private string? lastName;
+        private string lastName;
 
-        public string? FullName => $"{FirstName} {LastName}";
+        public string FullName => $"{FirstName} {LastName}";
 
         [RelayCommand(CanExecute = nameof(CheckName))]
         public async Task Save(string saveName)
