@@ -4,11 +4,11 @@
              x:Class="MVVMToolkitMAUISample.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+        <Frame BackgroundColor="#2196F3" Padding="14" CornerRadius="0">
             <Label Text="CommunityToolkit MVVM Sample"
                    HorizontalTextAlignment="Center"
                    TextColor="White"
-                   FontSize="32"/>
+                   FontSize="22"/>
         </Frame>
 
         <StackLayout Margin="20">
